@@ -1,0 +1,303 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;500;700&display=swap");
+body {
+  font-family: "Jost";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  width: 1111px;
+  margin: auto;
+}
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 70px;
+}
+.logo .logo__img {
+  padding-top: 65px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.logo .logo__img h1 {
+  margin-left: 18px;
+}
+.logo .logo__img h1 a {
+  text-decoration: none;
+  color: #333136;
+}
+.logo .navbar {
+  padding-top: 71px;
+}
+.logo .navbar nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.logo .navbar nav ul li {
+  list-style: none;
+}
+.logo .navbar nav ul li a {
+  text-decoration: none;
+  margin-left: 42px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  color: #333136;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.logo .navbar nav ul li a:hover {
+  border-bottom: 2px solid orange;
+  color: orange;
+}
+
+header .header__title {
+  background-image: url(../img/main_img/main_last_img.jpg);
+  height: 252px;
+  margin-bottom: 160px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  margin-bottom: 160px;
+  border-radius: 15px;
+}
+header .header__title h1 {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 48px;
+  color: #FFFFFF;
+  margin-bottom: 24px;
+}
+header .header__title p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #FFFFFF;
+  width: 390px;
+}
+
+.a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 160px;
+}
+.a h4 {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: 2px;
+  color: #FFFFFF;
+  margin-bottom: 24px;
+}
+.a a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.a a img {
+  margin-left: 21px;
+}
+
+main .all_cards {
+  margin-bottom: 160px;
+}
+main .all_cards .cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 32px;
+}
+main .all_cards .cards section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background: #FDF3F0;
+  border-radius: 15px;
+  width: 350px;
+}
+main .all_cards .cards section:not(:first-child) {
+  margin-left: 31px;
+}
+main .all_cards .cards section img {
+  margin-bottom: 32px;
+}
+main .all_cards .cards section h4 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 5px;
+  color: #E7816B;
+  margin-bottom: 14px;
+}
+main .all_cards .cards section p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #333136;
+  padding-bottom: 32px;
+  width: 286px;
+}
+main .main__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+main .main__link .first {
+  background-image: url(../img/graphic_img/web_design.png);
+  width: 541px;
+  height: 308px;
+}
+main .main__link .second {
+  background-image: url(../img/main_img/graphic.jpg);
+  width: 541px;
+  height: 308px;
+}
+main .last__content {
+  height: 292px;
+  background-image: url(../img/main_img/main_last_img.jpg);
+  padding: 72px 96px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transform: translateY(72px);
+          transform: translateY(72px);
+  border-radius: 15px;
+}
+main .last__content .h2 {
+  width: 268px;
+}
+main .last__content .h2 h2 {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 40px;
+  color: #FFFFFF;
+  margin-bottom: 11px;
+}
+main .last__content .p {
+  width: 459px;
+}
+main .last__content .p p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+main .last__content a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #333136;
+  padding: 17px 19px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+footer {
+  width: 100%;
+  background-color: black;
+}
+footer .footer {
+  padding: 72px;
+}
+footer .footer .logo {
+  margin-bottom: 40px;
+}
+footer .footer .logo h1 {
+  color: white;
+}
+footer .footer .logo ul li a {
+  color: white;
+}
+footer .footer hr {
+  margin-bottom: 31px;
+}
+footer .footer .last__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+footer .footer .last__text address {
+  width: 350px;
+}
+footer .footer .last__text address:last-child {
+  margin-left: 30px;
+}
+footer .footer .last__text address ul li {
+  list-style: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+footer .footer .last__text .icons {
+  margin-left: 190px;
+}
+footer .footer .last__text .icons svg:first-child {
+  margin-left: 16px;
+}/*# sourceMappingURL=app.css.map */

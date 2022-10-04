@@ -1,0 +1,288 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;500;700&display=swap");
+body {
+  font-family: "Jost";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  width: 1111px;
+  margin: auto;
+}
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 70px;
+}
+.logo .logo__img {
+  padding-top: 65px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.logo .logo__img h1 {
+  margin-left: 18px;
+}
+.logo .logo__img h1 a {
+  text-decoration: none;
+  color: #333136;
+}
+.logo .navbar {
+  padding-top: 71px;
+}
+.logo .navbar nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.logo .navbar nav ul li {
+  list-style: none;
+}
+.logo .navbar nav ul li a {
+  text-decoration: none;
+  margin-left: 42px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 2px;
+  color: #333136;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.logo .navbar nav ul li a:hover {
+  border-bottom: 2px solid orange;
+  color: orange;
+}
+
+header .header__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url(../img/about_img/about_background.png);
+  height: 480px;
+  margin-bottom: 160px;
+}
+header .header__img .about_con {
+  margin-left: 95px;
+}
+header .header__img .about_con h2 {
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 48px;
+  color: #FFFFFF;
+  margin-bottom: 32px;
+}
+header .header__img .about_con p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+  width: 458px;
+}
+header .header__img img {
+  border-radius: 8px;
+}
+
+.world__talent {
+  margin-left: 94px;
+}
+.world__talent h3 {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 48px;
+  color: #E7816B;
+}
+.world__talent p {
+  width: 445px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333136;
+}
+
+main .about_img {
+  background-image: url(../img/about_img/about_img_2.png);
+  height: 640px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 160px;
+}
+main .state__name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 160px;
+}
+main .state__name section {
+  width: 350px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+main .state__name section img {
+  margin-bottom: 48px;
+}
+main .state__name section h4 {
+  margin-bottom: 50px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 5px;
+  color: #333136;
+}
+main .state__name section a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 18px;
+  background: #E7816B;
+  border-radius: 8px;
+}
+main .real__deal {
+  background-image: url(../img/about_img/real__deal.jpg);
+  height: 640px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 160px;
+}
+main .real__deal img {
+  margin-left: 94px;
+}
+main .last__content {
+  height: 292px;
+  background-image: url(../img/main_img/main_last_img.jpg);
+  padding: 72px 96px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transform: translateY(72px);
+          transform: translateY(72px);
+  border-radius: 15px;
+}
+main .last__content .h2 {
+  width: 268px;
+}
+main .last__content .h2 h2 {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 40px;
+  color: #FFFFFF;
+  margin-bottom: 11px;
+}
+main .last__content .p {
+  width: 459px;
+}
+main .last__content .p p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+}
+main .last__content a {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #333136;
+  padding: 17px 19px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+footer {
+  width: 100%;
+  background-color: black;
+}
+footer .footer {
+  padding: 72px;
+}
+footer .footer .logo {
+  margin-bottom: 40px;
+}
+footer .footer .logo h1 {
+  color: white;
+}
+footer .footer .logo ul li a {
+  color: white;
+}
+footer .footer hr {
+  margin-bottom: 31px;
+}
+footer .footer .last__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+footer .footer .last__text address {
+  width: 350px;
+}
+footer .footer .last__text address:last-child {
+  margin-left: 30px;
+}
+footer .footer .last__text address ul li {
+  list-style: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+footer .footer .last__text .icons {
+  margin-left: 190px;
+}
+footer .footer .last__text .icons svg:first-child {
+  margin-left: 16px;
+}/*# sourceMappingURL=about.css.map */
